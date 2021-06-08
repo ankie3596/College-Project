@@ -1,0 +1,18 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0
+}
+
+.navbar-brand img {
+    width: 35px;
+    padding: 5px;
+}
+
+a.navbar-brand img {
+    padding: 0
+}
+
+span.input-group-addon {
+    width: 10px;
+    padding: 5 px;
+}

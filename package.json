@@ -1,0 +1,25 @@
+{
+  "name": "college_project",
+  "version": "1.0.0",
+  "description": "College Project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.1",
+    "nodemailer": "^4.6.4",
+    "nodemon": "^1.19.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^2.2.1",
+    "pg": "^7.4.1",
+    "pg-promise": "^8.4.0",
+    "uuid-v4": "^0.1.0"
+  },
+  "author": "Ankita Mittal",
+  "license": "ISC"
+}

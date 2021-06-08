@@ -1,0 +1,67 @@
+<!-- <div class="jumbotron sub-header">
+    <h2>Contact Us</h2>
+</div> -->
+<div class="container">
+    <h2 class="page-header"> Login </h2>
+
+    <div class="whitebg">
+        <!--Start Faq Appointment area-->
+        <section class="faq-appointment-area sec-pd-one">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <div class="faq-content-box">
+                            <div class="sec-title">
+                                <!-- <span>Visit Us</span> -->
+                                <div class="border"></div>
+                                <h2 class="bcd"> Shri Aatm Vallabh Jain Girls College</h2>
+                            </div>
+                            <div class="accordion-box">
+                                <!--Start single accordion box-->
+                                <div class="accordion accordion-block">
+                                    <p class="cde">Some instructions : </p>
+                                    <ul class="abc">
+                                        <li> Fill your details carefully</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- <div class="faq-2"></div> -->
+                        </div>
+                    </div>
+                    <div style="padding-left:0px" class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <div class="appointment-box">
+                            <div class="sec-title">
+                                <!-- <span>For Enquiry</span> -->
+                                <!-- <div class="border"></div>  -->
+                                <h3>Login </h3>
+                            </div>
+                            <form (submit)="onLoginSubmit()">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <mat-form-field class="full-width">
+                                            <input matInput placeholder="Username" [(ngModel)]="username" name="username">
+                                        </mat-form-field>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <mat-form-field class="full-width">
+                                            <input matInput placeholder="Password" [(ngModel)]="password" name="password" [type]="hide ? 'text' : 'password'">
+                                            <mat-icon style="cursor: pointer;" matSuffix (click)="hide = !hide">{{hide ? 'visibility' : 'visibility_off'}}</mat-icon>
+                                        </mat-form-field>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <button value="Submit" mat-raised-button color="primary"> Submit </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>

@@ -1,0 +1,144 @@
+.faq-appointment-area {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.faq-content-box {
+    position: relative;
+    background: #673ab7;
+    display: block;
+    padding: 50px 40px 50px;
+    margin-right: 35px;
+    margin-bottom: 40px;
+    height: 504px;
+}
+
+.faq-content-box:before {
+    position: absolute;
+    top: 0;
+    right: -50px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    background: #673ab7;
+    content: "";
+}
+
+.faq-2 {
+    position: absolute;
+    /* top: 0; */
+    right: -50px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    background: none;
+    content: "";
+    border-bottom: 1px solid #673ab7
+}
+
+.faq-content-box .sec-title,
+.appointment-box .sec-title {
+    padding-bottom: 16px;
+}
+
+.faq-content-box .sec-title span {
+    color: #673ab7;
+}
+
+.faq-content-box .sec-title .border {
+    background: #673ab7;
+}
+
+.faq-content-box .sec-title h1 {
+    color: #ffffff;
+}
+
+.accordion-box {
+    display: block;
+    overflow: hidden;
+    padding: 0;
+}
+
+.accordion-box .accordion {
+    position: relative;
+}
+
+.accordion-box .accordion .accord-btn {
+    border-bottom: 1px solid #673ab7;
+    cursor: pointer;
+    position: relative;
+    transition: all 500ms ease;
+    display: block;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.accordion-box .accordion .accord-btn h4 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    transition: all 500ms ease;
+}
+
+.accordion-box .accordion .accord-content {
+    display: none;
+    position: relative;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-right: 0px;
+    border-bottom: 1px solid #673ab7;
+}
+
+.accordion-box .accordion .accord-content.collapsed {
+    display: block;
+}
+
+.accordion-box .accordion .accord-content p {
+    margin: 0;
+    color: #eef2ff;
+}
+
+.accordion.accordion-block p {
+    color: #fff;
+    font-size: 22px
+}
+
+.appointment-box {
+    border: 1px solid #673ab7;
+    /* margin-left: -65px; */
+    display: block;
+    padding-top: 41px;
+    padding-left: 50px;
+    padding-bottom: 42px;
+    padding-right: 50px;
+    /* border-left: none; */
+    margin-top: 49px;
+    right: 35px;
+    position: relative;
+    height: 455px;
+}
+
+.full-width {
+    width: 100%
+}
+
+.faq-appointment-area .col-xl-6 {
+    padding-right: 0px;
+    padding-left: 0px
+}
+
+ul.abc li {
+    font-size: 20px;
+    color: #fff;
+    line-height: 35px;
+}
+
+.bcd {
+    color: #fff;
+}
+
+p.cde {
+    font-size: 26px;
+}

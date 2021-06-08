@@ -1,0 +1,81 @@
+<div class="container">
+    <h2 class="page-header"> Update Details </h2>
+    <form (submit)="onUpdateSubmit()">
+        <div class="row">
+            <div class="col-md-6">
+                <mat-form-field class="full-width">
+                    <input matInput placeholder="Name" [(ngModel)]="name" name="name">
+                </mat-form-field>
+            </div>
+            <div class="col-md-6">
+                <mat-form-field class="full-width">
+                    <input matInput placeholder="Username" [(ngModel)]="username" name="username">
+                </mat-form-field>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <mat-form-field class="full-width">
+                    <input matInput placeholder="Email" [(ngModel)]="email" name="email">
+                </mat-form-field>
+            </div>
+            <div class="col-md-6">
+                <mat-form-field class="full-width">
+                    <input matInput placeholder="Subject" [(ngModel)]="subject" name="subject">
+                </mat-form-field>
+            </div>
+        </div>
+        <!-- <div class="col-md-6">
+        <mat-form-field class="full-width">
+            <mat-select placeholder="Designations" [(ngModel)]="designation" name="designation" [(value)]="selected">
+                <mat-option value="hod">H.O.D</mat-option>
+                <mat-option value="lecturer">Lecturer</mat-option>
+                <mat-option value="student">Student</mat-option>
+            </mat-select>
+        </mat-form-field>
+    </div> -->
+        <div class="row">
+            <div class="col-md-6">
+                <mat-form-field class="full-width">
+                    <textarea matInput placeholder="Address" [(ngModel)]="address" name="address"></textarea>
+                </mat-form-field>
+            </div>
+            <div class="col-md-6">
+                <span>Gender</span>
+                <div>
+                    <mat-radio-group [(ngModel)]="gender" name="gender">
+                        <mat-radio-button value="Male">Male</mat-radio-button>
+                        <mat-radio-button value="Female">Female</mat-radio-button>
+                    </mat-radio-group>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <mat-form-field class="full-width">
+                    <input matInput placeholder="City" [(ngModel)]="city" name="city">
+                </mat-form-field>
+            </div>
+            <div class="col-md-6">
+                <mat-form-field class="full-width">
+                    <input matInput placeholder="Mobile Number" [(ngModel)]="mobile_no" name="mobile_no">
+                </mat-form-field>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <mat-form-field class="full-width">
+                    <input matInput placeholder="Country" [(ngModel)]="country" name="country">
+                </mat-form-field>
+            </div>
+            <div class="col-md-6">
+                <mat-form-field class="full-width">
+                    <input matInput placeholder="PinCode" [(ngModel)]="pin_no" name="pin_no">
+                </mat-form-field>
+            </div>
+        </div>
+        <div class="col-sm-12">
+            <button value="Submit" mat-raised-button color="primary"> Submit </button>
+        </div>
+    </form>
+</div>
